@@ -3,5 +3,5 @@ def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
   sorted = arr.sort
-  sorted.sort_by {|a| alphabet.index(a)}
+  sorted.sort_by {|a| a.tr(alphabet, ascii)}
 end
