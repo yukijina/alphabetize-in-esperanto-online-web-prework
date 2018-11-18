@@ -3,5 +3,5 @@ def alphabetize(arr)
   ascii = "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\"
   #replace esperanto order to ascii order
   #sorted = arr.sort
-  sorted.sort_by {|a| a.tr(esperanto, ascii)}
+  arr.sort_by {|a| a.tr(esperanto, ascii)}
 end
