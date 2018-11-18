@@ -1,5 +1,5 @@
 def alphabetize(arr)
   # code here
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by {|a| aalphabet[a]}
+  arr.each {|to_string| to_string[0].sory_by(alphabet)}
 end
