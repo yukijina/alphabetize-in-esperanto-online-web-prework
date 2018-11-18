@@ -1,6 +1,6 @@
 def alphabetize(arr)
   # code here
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  #sorted_arr = arr.sort_by {|a| alphabet.index(a)}
-  arr.sort
+  sorted = arr.sort
+  sorted.sort_by {|a| alphabet.index(a)}
 end
